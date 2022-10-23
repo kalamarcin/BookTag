@@ -14,8 +14,10 @@ export const Nav: FC<PropsNav> = props => {
 		<>
 			<section>
 				<nav>
-				
 					<ul className={style.menu}>
+						<li>
+							<h4>Logo</h4>
+						</li>
 						<li>
 							<Link to="/">Home</Link>
 						</li>
@@ -26,10 +28,8 @@ export const Nav: FC<PropsNav> = props => {
 							<Link to="add">Add Books</Link>
 						</li>
 					</ul>
-					
 				</nav>
 			</section>
-
 		</>
 	)
 }

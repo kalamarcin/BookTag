@@ -6,8 +6,7 @@ export const Footer: FC = () => {
 		<footer>
 			<div className={style.footer}>
 				<span>Developed by M.K. | </span>
-               <a href="https://grohit.com/">G Rohit</a>
-                <a href="https://codepen.io/grohit/">Check my other pens </a>
+               
 			</div>
 		</footer>
 	)

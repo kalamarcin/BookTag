@@ -15,6 +15,7 @@ html {
     
     background: #1c1d22;
   }
+
   
   nav {
 	position: sticky;
@@ -24,7 +25,7 @@ html {
 
   .menu {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     list-style: none;
   }
   
@@ -33,6 +34,7 @@ html {
     height: 50px;
     transition: background-position-x 0.9s linear;
     text-align: center;
+
   
     a {
       font-size: 22px;
@@ -48,6 +50,10 @@ html {
     }
   
    
+  }
+
+  ul:first-child {
+    color: #ffffff;
   }
   
   
