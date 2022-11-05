@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FC } from 'react'
 import { navElements } from '../../HelperInterface/Navigation'
@@ -14,10 +13,9 @@ export const Nav: FC<PropsNav> = props => {
 		<>
 			<section>
 				<nav>
+					
 					<ul className={style.menu}>
-						<li>
-							<h4>Logo</h4>
-						</li>
+				
 						<li>
 							<Link to="/">Home</Link>
 						</li>
